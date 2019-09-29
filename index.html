@@ -54,7 +54,18 @@
 <li class="nav-item">
 <a class="nav-item nav-link" href="#home">Home</a>
 </li>
-<li class="nav-item dropdown">
+<li class="nav-item">
+<a class="nav-item nav-link" href="research.html">Research</a>
+</li>
+<li class="nav-item">
+<a class="nav-item nav-link" href="project.html">Project</a>
+</li>
+</li>
+<li class="nav-item">
+<a class="nav-item nav-link" href="misc.html">Misc.</a>
+</li>
+
+<!-- <li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 Links
 </a>
@@ -64,7 +75,7 @@ Links
 <a class="dropdown-item" href="#project">Project</a>
 <a class="dropdown-item" href="#misc"> Misc. </a>
 </div>
-</li>
+</li> -->
 
 </ul>
 </div>
@@ -199,6 +210,7 @@ I enjoy building and learning systems! My research interest lies in <b>database 
 <div class="info">
 <div>Visiting Student | <a href="https://www.ics.uci.edu/">Information and Computer Science Department</a></div>
 <div>GPA: 4.0/4.0</div>
+<div>Advisor: <a href="https://www.ics.uci.edu/~mjcarey/">Prof. Michael Carey</a></div>
 <div class="location">Irvine, CA</div>
 </div>
 </div>
@@ -239,284 +251,6 @@ I enjoy building and learning systems! My research interest lies in <b>database 
 </div>
 </div>
 
-</div>
-</div>
-<div class="sec-wrapper exp-wrapper" id="exp">
-<div class="container-fluid">
-<div class="row">
-<div class="col col-wrapper">
-<div class="section-title">Experience</div>
-</div>
-</div>
-
-<div class="row align-items-center section-item">
-<div class="col-lg-4 col-wrapper fig-wide">
-<div class="figure">
-<a href="https://www.sustech.edu.cn/en/"><img src="static/img/SUSTech_en.png" alt="[sustech]"></a>
-</div>
-</div>
-<div class="col-sm-3 col-wrapper fig-square">
-<div class="figure">
-<a href="https://www.sustech.edu.cn/en/"><img src="static/img/SUSTech.png" alt="[sustech]"></a>
-</div>
-</div>
-<div class="col-sm-9 col-lg-8 col-wrapper">
-<div class="row">
-<div class="col-md-8 col-wrapper">
-<div class="title">
-<a href="https://www.sustech.edu.cn/en/">Southern University of Science and Technology</a></div><div class="info">
-<div>Research Assistant | <a href="">Computer Science Department</a></div>
-<div>Advisor: <a href="https://acm.sustech.edu.cn/btang/">Prof. Bo Tang</a></div>
-<div class="location">Shenzhen, China</div>
-</div>
-</div>
-<div class="col-md-4 col-wrapper">
-<time>Sep. 2018 - Present</time>
-</div>
-</div>
-</div>
-</div>
-
-<div class="row align-items-center section-item">
-<div class="col-lg-4 col-wrapper fig-wide">
-<div class="figure">
-<a href="https://uci.edu/"><img src="static/img/UCI.png" alt="[UCI]"></a>
-</div>
-</div>
-<div class="col-sm-3 col-wrapper fig-square">
-<div class="figure">
-<a href="https://uci.edu/"><img src="static/img/UCI-Square.jpg" alt="[UCI]"></a>
-</div>
-</div>
-<div class="col-sm-9 col-lg-8 col-wrapper">
-<div class="row">
-<div class="col-md-8 col-wrapper">
-<div class="title">
-<a href="https://uci.edu/">University of California, Irvine</a>
-</div>
-<div class="info">
-<div>Research Intern | <a href="https://www.ics.uci.edu/">Information and Computer Science Department</a></div>
-<div>Advisor: <a href="https://www.ics.uci.edu/~mjcarey/">Prof. Michael Carey</a></div>
-<div class="location">Irvine, CA</div>
-</div>
-</div>
-<div class="col-md-4 col-wrapper">
-<time>July. 2019 - Sep.2019</time>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-<div class="sec-wrapper pub-wrapper" id="Research">
-<div class="container-fluid">
-<div class="row">
-<div class="col col-wrapper">
-<div class="section-title">Research</div>
-</div>
-</div>
-
-<div class="row align-items-center section-item">
-<div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
-<div class="figure">
-<img src="static/img/asterix2.png" alt="[Pushdown]">
-</div>
-</div>
-<div class="col-xs-12 col-md-9 col-lg-8 col-wrapper">
-<div class="title">
-	Speed Up Query Execution By Pushdown in <a href="https://asterixdb.apache.org">AsterixDB</a>
-</div>
-<p>Area: Big Data Managament, Query Optimization</p>
-<p style="text-align:left;">
-    Advisor: <a href="https://www.ics.uci.edu/~mjcarey/">Prof. Michael Carey </a> (UCI)
-    <span style="float:right;">
-        <time>July. 2019 - Sep. 2019</time>
-    </span>
-</p>
-<p>
-	In the original query execution model of AsterixDB, there will be expensive memory copy cost between operators. To tackle this problem, we develop a method called pushdown to combine several operators for queries matching certain patterns. More specifically, we push execution logic down to the data-scan stage as much as possible to reduce the number of operators. By applying pushdown, the performance of query execution can be improved significantly
-</p>
-<ul>
-	<li> Explore three patterns of query on which pushdown can have a performance impact</li>
-	<li> Design comprehensive benchmarks to test the performance</li>
-</ul>
-
-<a href="static/files/poster.pdf">[poster]</a>
-<a href="static/files/asterix_report.pdf">[technical report]</a>
-</div>
-</div>
-
-
-<br />
-
-<div class="row align-items-center section-item">
-<div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
-<div class="figure">
-<img src="static/img/cache.png" alt="[cache-research]">
-</div>
-</div>
-<div class="col-xs-12 col-md-9 col-lg-8 col-wrapper">
-<div class="title">
-Efficient Cache Management for Replicated Web Search Engine
-</div>
-<p>Area: Information Retrival, Theory</p>
-<p style="text-align:left;">
-    Advisor: <a href="https://acm.sustech.edu.cn/btang/">Prof. Bo Tang</a>
-    <span style="float:right;">
-        <time>Oct. 2018 - Present</time>
-    </span>
-</p>
-<p>
-	Posting list cache plays an important role in saving searching time in modern search engines. However, most search engines adopt a simple scheme called uniform caching which caches the same content on all the servers. It does not exploit the variations among queries, thus wasting memory space on caching the same cache content redundantly on multiple servers. To tackle this limitation, we want to develop a new caching scheme which diversifies the cache contents in different servers by training past query log.
-</p>
-<ul>
-	<li>Provide the theoretical inapproximability proof of diversified caching problem</li>
-	<li>Implement a framework with a suite of techniques and heuristics for diversified caching</li>
-	<li>[In progress] Enhancing the cache admission process with semantic information of words. (like word collocations, we should cache words which are like to appear together on the same server) </li>
-</ul>
-
-</div>
-</div>
-</div>
-</div>
-
-<div class="sec-wrapper pub-wrapper" id="project">
-<div class="container-fluid">
-<div class="row">
-<div class="col col-wrapper">
-<div class="section-title">Notable Project</div>
-</div>
-</div>
-
-<div class="row align-items-center section-item">
-<div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
-<div class="figure">
-<img src="static/img/pilipili.gif" alt="[image app]" />
-<!-- <img src="Source_files/FREEtree-pic.png" alt="[FREEtree]"> -->
-</div>
-</div>
-<div class="col-xs-12 col-md-9 col-lg-8 col-wrapper">
-<div class="title">
-PiliPili - An Image Processing App
-</div>
-<p>Area: Software Engineering | Role: Full Stack Developer</p>
-<p style="text-align:left;">
-    Advisor: <a href="https://www.shinhwei.com/">Prof. Shin Hwei Tan </a>
-    <span style="float:right;">
-        <time>Mar. 2019 - May. 2019</time>
-    </span>
-</p>
-
-<p>Pilipili is a photo and image processing app, which can apply artistic styles to photos or videos in real- time. here are at least 11 different styles from Van Gogh's Starry Night to Picasso's Les Femmes d’Alger. Besides, users can upload and share their own creative work to community.</p>
-<ul>
-	<li>We build a efficient and stable front end. We use <a href="https://square.github.io/retrofit/">Retrofit</a> as the http client. For picture rendering, we use a fast and efficient open source framework <a href="https://github.com/bumptech/glide">Glide</a>.For image processing, we use <a href="https://github.com/cats-oss/android-gpuimage">GPUImage</a> to implement various filters and integrate <a href="https://www.tensorflow.org/">Tensorflow</a> into our project to implement photo style transfer.
-	</li> 
-	<li>We build a robust and extensible backend which integrates <a href="https://spring.io/projects/spring-boot">Springboot</a>, <a href="http://hibernate.org/">Hibernate</a> and <a href="https://www.mysql.com/">MySQL</a></li>
-	<li>We apply extensive tests from backend to frontend using <a href="https://developer.android.com/training/testing/espresso">ESpresso</a>, <a href="https://junit.org/junit5/">JUnit</a> and <a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/web/servlet/MockMvc.html">MockMVC</a></li>
-</ul>
-<a href="https://github.com/snowgy/pilipili">[code]</a>
-<a href="static/files/final_pre.pdf">[slides]</a>
-
-</div>
-</div>
-
-
-<br />
-
-<div class="row align-items-center section-item">
-<div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
-<div class="figure">
-<img src="static/img/pintos.png" alt="[pinots]">
-</div>
-</div>
-
-<div class="col-xs-12 col-md-9 col-lg-8 col-wrapper">
-<div class="title">
-Pinots - A Simple Operating System Framework
-</div>
-<p>Area: Operating System | Role: Main Developer</p>
-<p style="text-align:left;">
-    Advisor: <a href="https://acm.sustech.edu.cn/btang/">Prof. Bo Tang</a>
-    <span style="float:right;">
-        <time>Mar. 2019 - May.2019</time>
-    </span>
-</p>
-<p>
-	Pintos is a simple operating system framework for the 80x86 architecture. At first, it only supports the most basic operating system funtionality. To make its functionality more complete, we have strengthened its support in kernel threads, loading and running user programs, and a file system.
-</p>
-<ul>
-	<li>As for thread, we implement priority scheduling with priority donation and multilevel feedback queue scheduling.</li> 
-	<li>As for user program, we implement argument passing and system calls. </li>
-	<li>As for file system, we add support to buffer cache, extensible files and subdirectories.</li>
-</ul>
-
-
-<a href="https://github.com/snowgy/pintos_user_program">[code]</a>
-<a href="static/files/pintos.pdf">[technical report]</a>
-</div>
-</div>
-
-<br />
-
-<div class="row align-items-center section-item">
-<div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
-
-<img src="static/img/imp.png" width="70%" style="margin-left: 50px; padding-left:0;padding-right:30px;padding-top:10px;padding-bottom:10px;"  alt="[social network]">
-
-</div> 
-
-<div class="col-xs-12 col-md-9 col-lg-8 col-wrapper">
-<div class="title">
-Influence Maximization
-</div>
-<p>Area: Artificial Intelligence</p>
-<p style="text-align:left;">
-    Advisor: <a href="https://scholar.google.com/citations?user=mzLHFbAAAAAJ&hl=en&oi=ao">Prof. Ke Tang</a>
-    <span style="float:right;">
-        <time>Oct. 2018 - Nov.2018</time>
-    </span>
-</p>
-<p>
-  Influence Maximization Problem (IMP) is the problem of finding a small subset of nodes (referred to as seed set) in a social network that could maximize the spread of influence.
-</p>
-<ul>
-  <li>Exploit the parallelism of the state of art algorithm and adpapt it to multi-process version</li> 
-  <li>Got the highest score in the performance contest in my class (1/105)</li>
-</ul>
-
-
-<a href="https://github.com/snowgy/Influence_Maximization">[code]</a>
-<a href="static/files/imp.pdf">[technical report]</a>
-</div>
-</div>
-
-</div>
-</div>
-
-<div class="sec-wrapper bio-wrapper" id="misc">
-<div class="container-fluid">
-<div class="row">
-<div class="col col-wrapper">
-<div class="section-title">Miscellaneous</div>
-</div>
-</div>
-<div class="row">
-<div class="col col-wrapper">
-<p>SUSTech is newly established university in 2012 at Shenzhen, China. There are two short materials which can help you know it better.</p>
-<ul>
-  <li>
-    A brief introduction about our university written by <a href="https://www.math.northwestern.edu/~xia/">Prof.Zhihong Xia</a> who has worked in SUSTech.
-[<a href="static/files/intro.pdf">intro</a>]
-  </li>
-  <li>
-    A short story about our university. [<a href="https://www.nature.com/news/chinese-university-wins-degree-of-freedom-1.10631">story</a>]
-
-  </li>
-</ul>
-
-</div>
-</div>
 </div>
 </div>
 
