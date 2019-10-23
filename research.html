@@ -98,7 +98,7 @@
     </span>
 </p>
 <p>
-	In the original query execution model of AsterixDB, there will be expensive memory copy cost between operators. To tackle this problem, we develop a method called pushdown to combine several operators for queries matching certain patterns. More specifically, we push execution logic down to the data-scan stage as much as possible to reduce the number of operators. By applying pushdown, the performance of query execution can be improved significantly
+	AsterixDB is a scalable big data management system. The research problem addressed by my work is the limitation of incomplete operator pushdown in the current implementation of AsterixDB. Since there are expensive memory copy costs between operators, my work aims to push the query execution logic down to the data-scan stage as much as possible.
 </p>
 <ul>
 	<li> Explore three patterns of query on which pushdown can have a performance impact</li>
