@@ -2,7 +2,9 @@
     --cardinal: #8A0404;
     --very-light-gray: #F1F1F1;
     --light-gray: #C2C0BF;
-    --dark-gray: #8A8B8C
+    --dark-gray: #8A8B8C;
+    --black: #000000;
+    --gold: #CEB888;
 }
 
 body {
@@ -62,7 +64,7 @@ a:hover {
 }
 
 nav {
-    background-color: var(--cardinal)
+    background-color: var(--black)
 }
 
 .navbar {
@@ -82,7 +84,7 @@ nav {
 
 .navbar-dark .navbar-brand,
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff
+    color: var(--gold)
 }
 
 .navbar-toggler {
