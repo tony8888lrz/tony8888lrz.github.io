@@ -27,7 +27,7 @@ He recently won s prize in MCN competition.
 print("He is reaaly a smart boy")
 ```
 
-For more information about this boy, you can find him in [pornhub](http://pornhub.com).
+For more information about this boy, you can find him in [scholar](http://scholar.com).
 
 ### Workspace
 
