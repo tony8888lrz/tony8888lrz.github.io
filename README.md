@@ -20,7 +20,7 @@ Runze Liao is currently a Bachelor of College of Computer and Information Scienc
 ### Research
 
 Currently He is a research rookie.  
-He recently won s prize in MCN competition.
+He recently won H prize in MCN competition.
 [MCN certification](https://github.com/tony8888lrz/tony8888lrz.github.io/files/8637962/default.pdf)
 
 ```py
