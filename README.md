@@ -14,7 +14,7 @@ He wishes u enjoy the music.
 2024-? [?](https://www.cuhk.edu.hk/)  
 
 ### About  
-Runze Liao is currently a Bachelor of College of Computer and Information Science, Southwest University, China. He will receive B.S. from Southwest University, China, in 2024, and M.S. from xx University, xx, in 2026, and Ph.D. from xx, xx, in 2030. His research interests include computer vision, text detection, OCR, and deep learning. His work will be published in several top journals and conferences including IEEE TPAMI, IEEE TVCG, CVPR, ICCV and AAAI.
+Runze Liao is currently a Bachelor of College of Computer and Information Science, Southwest University, China. He will receive B.S. from Southwest University, China, in 2024, and M.S. from xx University, xx, in 2026, and Ph.D. from xx, xx, in 2030. His research interests include computer vision, Camara-Projector system, computer graphics, and deep learning. His work will be published in several top journals and conferences including IEEE TPAMI, IEEE TVCG, CVPR, ICCV and AAAI.
 [CV](https://github.com/tony8888lrz/tony8888lrz.github.io/blob/main/CV_Runze_mitcas.pdf)
 
 ### Research
