@@ -18,7 +18,7 @@ Runze Liao is currently a Bachelor of College of Computer and Information Scienc
 [CV](https://github.com/tony8888lrz/tony8888lrz.github.io/blob/main/CV_Runze_mitcas.pdf)
 
 ### Research
-Research : [Extension of Physical Mail Attack(AAAI'21)](https://github.com/tony8888lrz/Neural-STE_Text/)
+Research : [Extension of Physical Mail Attack(AAAI'21)](https://github.com/tony8888lrz/Neural-STE_Text/) 
 He recently won H prize in MCN competition.
 [MCN certification](https://github.com/tony8888lrz/tony8888lrz.github.io/blob/main/美赛H奖.pdf)
 
@@ -30,7 +30,7 @@ For more information about this boy, you can find him in [scholar](http://schola
 
 ### Workspace
 
-He has done some work in his Undergraduate career :  [data structure](https://github.com/tony8888lrz/data-structure) & [c++](https://github.com/tony8888lrz/SWU-c-plus-plus)  [swu management system](https://github.com/tony8888lrz/swu-book-management-system)   
+He has done some work in his Undergraduate career :  [data structure](https://github.com/tony8888lrz/data-structure) & [c++](https://github.com/tony8888lrz/SWU-c-plus-plus) & [swu management system](https://github.com/tony8888lrz/swu-book-management-system)   
 He is the initiator of this project :  [swu-cst-cracker](https://github.com/tony8888lrz/swu-cst-cracker)
 
 
