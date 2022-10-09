@@ -10,8 +10,7 @@ He wishes u enjoy the music.
 ### Education background
 2008-2014 [ZongBei Primary School](https://baike.baidu.com/item/%E6%A3%95%E5%8C%97%E5%B0%8F%E5%AD%A6/5468346?fr=aladdin)  
 2014-2020 [Chengdu Experimental Foreign Language School (Western Campus)](http://www.cdswxq.com/)  
-2020-2024 [Southwest University](http://www.swu.edu.cn/) & [University of Auckland](http://www.uoa.edu.au/) Joint training BSc programs 
-
+2020-2024 [Southwest University](http://www.swu.edu.cn/) & [University of Auckland](http://www.uoa.edu.au/) Joint training BSc programs  
 2024-? [?](https://www.cuhk.edu.hk/)  
 
 ### About  
@@ -31,8 +30,7 @@ For more information about this boy, you can find him in [scholar](http://schola
 
 ### Workspace
 
-He has done some work in his Undergraduate career :  [data structure](https://github.com/tony8888lrz/data-structure) & [c++](https://github.com/tony8888lrz/SWU-c-plus-plus)  [swu management system](https://github.com/tony8888lrz/swu-book-management-system)  
-
+He has done some work in his Undergraduate career :  [data structure](https://github.com/tony8888lrz/data-structure) & [c++](https://github.com/tony8888lrz/SWU-c-plus-plus)  [swu management system](https://github.com/tony8888lrz/swu-book-management-system)   
 He is the initiator of this project :  [swu-cst-cracker](https://github.com/tony8888lrz/swu-cst-cracker)
 
 
