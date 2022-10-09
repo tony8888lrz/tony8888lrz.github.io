@@ -39,4 +39,5 @@ He is the initiator of this project :  [swu-cst-cracker](https://github.com/tony
 [ins](https://www.instagram.com/ttoooonnny/)   
 qq:2043491428  
 wechat:liaorunze1314  
-phone:19934325211  
+phone:19934325211
+[linkedin](https://www.linkedin.cn/incareer/in/ACoAADsXTKgBP0cHKc9Dhx7yOvdeLLMCxyaK9Os)
