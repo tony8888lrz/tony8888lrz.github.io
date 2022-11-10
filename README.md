@@ -18,9 +18,14 @@ Runze Liao is currently a Bachelor of College of Computer and Information Scienc
 [CV](https://github.com/tony8888lrz/tony8888lrz.github.io/blob/main/CV_Runze_mitcas.pdf)
 
 ### Research
-Research : [Extension of Physical Mail Attack(AAAI'21)](https://github.com/tony8888lrz/Neural-STE_Text/)  
+Research : [Extension of Physical Mail Attack(AAAI'21)](https://github.com/tony8888lrz/Neural-STE_Text/)   
+
+### News  
+He won a National Encouragement Scholarship 2022(top 3%)
 He recently won H prize in MCN competition. 
+
 [MCN certification](https://github.com/tony8888lrz/tony8888lrz.github.io/blob/main/美赛H奖.pdf)
+
 
 ```py
 print("He is reaaly a smart boy")
