@@ -23,7 +23,7 @@ Research : [Extension of Physical Mail Attack(AAAI'21)](https://github.com/tony8
 ### News  
 He won a National Encouragement Scholarship 2022(top 2%)  
 
-He recently won H prize in MCN competition. 
+He recently won H prize in MCM competition. 
 
 [MCN certification](https://github.com/tony8888lrz/tony8888lrz.github.io/blob/main/美赛H奖.pdf)
 
