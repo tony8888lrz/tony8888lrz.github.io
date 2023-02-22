@@ -20,7 +20,7 @@ Runze Liao is currently a Bachelor of College of Computer and Information Scienc
 ### Projecet
 Modeling Deep Learning Based Privacy Attacks on Physical Mail's Extension of Text [Extension of Physical Mail Attack(AAAI'21)](https://github.com/tony8888lrz/Neural-STE_Text/)   
 
-Swu-book-management-system [System](https://github.com/tony8888lrz/swu-book-management-system)   
+Swu-book-management-system [Data-Structure Curriculum Final Project](https://github.com/tony8888lrz/swu-book-management-system)   
 
 ### News  
 He won a National Encouragement Scholarship 2022(top 2%)  
