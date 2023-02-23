@@ -2,9 +2,7 @@
 
 This is [Tony's](https://github.com/tony8888lrz/tony8888lrz.github.io/edit/main/README.md) webpage.
 ![46D54DA61313AAE2C1DAF6E141FD313E](https://user-images.githubusercontent.com/72693579/166874266-e1df8f0e-d73f-42e9-b0d9-5d50bc3e9046.png){:width = "200px" height="200px"}
-### Preference
-His favorite director is Stanley Kubrick.  
-His favorite band is Radiohead & Pink Floyd.  
+  
 He wishes u enjoy the music.  
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=120 src="//music.163.com/outchain/player?type=2&id=4237923&auto=1&height=66"></iframe>
 ### Education background
@@ -38,6 +36,9 @@ For more information about this boy, you can find him in [scholar](http://schola
 - He has done some work in his Undergraduate career :  [data structure](https://github.com/tony8888lrz/data-structure) & [c++](https://github.com/tony8888lrz/SWU-c-plus-plus) & [swu book management system](https://github.com/tony8888lrz/swu-book-management-system)   
 - He is the initiator of this project :  [swu-cst-cracker](https://github.com/tony8888lrz/swu-cst-cracker) star[6]
 
+### Preference
+His favorite director is Stanley Kubrick.  
+His favorite band is Radiohead & Pink Floyd.  
 
 ### Contact
 
