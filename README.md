@@ -1,7 +1,7 @@
 ## TaxiDriver  
 
 This is [Tony's](https://github.com/tony8888lrz/tony8888lrz.github.io/edit/main/README.md) webpage.
-![46D54DA61313AAE2C1DAF6E141FD313E](https://user-images.githubusercontent.com/72693579/166874266-e1df8f0e-d73f-42e9-b0d9-5d50bc3e9046.png){:width = "100px" height="100px"}
+![46D54DA61313AAE2C1DAF6E141FD313E](https://user-images.githubusercontent.com/72693579/166874266-e1df8f0e-d73f-42e9-b0d9-5d50bc3e9046.png){:width = "200px" height="200px"}
 ### Preference
 His favorite director is Stanley Kubrick.  
 His favorite band is Radiohead & Pink Floyd.  
