@@ -12,13 +12,13 @@ He wishes u enjoy the music.
 2024-? [?](https://www.cuhk.edu.hk/)  
 
 ### About  
-Runze Liao is currently a Bachelor of College of Computer and Information Science, Southwest University, China and a Bachelor of the University of Auckland. He will receive B.S. from Southwest University, China, His research interests include computer vision, Camara-Projector system, graphics, and deep learning. 
+Runze Liao is currently a Bachelor of College of Computer and Information Science, Southwest University, China and a Bachelor of the University of Auckland. He will receive B.S. from Southwest University and University of Auckland, C.N. & N.Z., His research interests include computer vision, Camara-Projector system, graphics, and deep learning. 
 [CV](https://github.com/tony8888lrz/tony8888lrz.github.io/blob/main/CV_Runze_mitcas.pdf)
 
 ### Projecet
-Modeling Deep Learning Based Privacy Attacks on Physical Mail's Extension of Text [Extension of Physical Mail Attack(AAAI'21)](https://github.com/tony8888lrz/Neural-STE_Text/)   
+Modeling Deep Learning Based Privacy Attacks on Physical Mail's Extension of Text [Text-Neural-STE(code)](https://github.com/tony8888lrz/Neural-STE_Text/)   
 
-Swu-book-management-system [Data-Structure Curriculum Final Project](https://github.com/tony8888lrz/swu-book-management-system)   
+Swu-book-management-system [Data-Structure Curriculum Final Project(code)](https://github.com/tony8888lrz/swu-book-management-system)   
 
 ### News  
 He won a National Encouragement Scholarship 2022(top 2%)  
