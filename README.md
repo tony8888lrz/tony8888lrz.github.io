@@ -12,7 +12,7 @@ He wishes u enjoy the music.
 2024-? [?](https://www.cuhk.edu.hk/)  
 
 ### About  
-Runze Liao is currently a Bachelor of College of Computer and Information Science, Southwest University, China and a Bachelor of the University of Auckland. He will receive B.S. from Southwest University and University of Auckland, C.N. & N.Z., His research interests include computer vision, Camara-Projector system, graphics, and deep learning. 
+Runze Liao is currently a Bachelor of College of Computer and Information Science, Southwest University, China and a Bachelor of the University of Auckland. He will receive B.S. from Southwest University and University of Auckland, C.N. & N.Z., His research interests include computer vision, computational photography，  graphics, and deep learning. 
 [CV](https://github.com/tony8888lrz/tony8888lrz.github.io/blob/main/CV_Runze_mitcas.pdf)
 
 ### Projecet
