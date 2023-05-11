@@ -26,7 +26,38 @@ He won a National Encouragement Scholarship 2022(top 2%)
 
 
 ```py
-print("He is reaaly a smart boy")
+fn research_no_failure()->Result < Paper, Error > {
+    let output = if cfg!(target_os = "linux") {
+        Command::new("qemu-x86_64-system")
+        .args(["-smp 6",
+             "-numa node,cpus=0-2,memdev=mem0,nodeid=0",
+             "-object memory-backend-ram,id=mem0,size=8G",
+             "-numa node,cpus=3-5,memdev=mem1,nodeid=1",
+             "-object memory-backend-ram,id=mem1,size=8G",
+             "-m 16G,slots=4,maxmem=32G",
+             "-machine q35,cxl=on",
+             "-M cxl-fmw.0.targets.0=cxl.1,cxl-fmw.0.size=4G",
+             "-device pxb-cxl,bus_nr=12,bus=pcie.0,id=cxl.1",
+             "-device cxl-rp,port=0,bus=cxl.1,id=root_port13,chassis=0,slot=2",
+             "-object memory-backend-file,id=cxl-mem1,share=on,mem-path=/tmp/cxltest.raw,size=256M",
+             "-object memory-backend-file,id=cxl-lsa1,share=on,mem-path=/tmp/lsa.raw,size=256M",
+             "-device cxl-type3,bus=root_port13,memdev=cxl-mem1,lsa=cxl-lsa1,id=cxl-mem0",
+             "-device virtio-crypto-cxl,id=crypto0,cryptodev=cryptodev0",
+             "-object cryptodev-backend-builtin,id=cryptodev0",
+             "-object secret,id=sec0,file=./Drywall/passwd.txt"])
+            .output()
+            .expect("failed to execute process")
+    }
+    let paper = Paper::new(output);
+    loop{
+        asm!("clflush" :: "r" (&paper.iter()) : "rax", "rbx", "rcx", "rdx": "volatile" );
+        __atomic_thread_fence(__ATOMIC_SEQ_CST);
+        if (paper.is_valid()){
+            break;
+        }
+    }
+    Ok(paper)
+}
 ```
 
 For more information about this boy, you can find him in [scholar](http://scholar.com).
