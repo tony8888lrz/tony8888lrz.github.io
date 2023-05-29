@@ -9,7 +9,7 @@ He wishes u enjoy the music.
 2008-2014 [ZongBei Primary School](https://baike.baidu.com/item/%E6%A3%95%E5%8C%97%E5%B0%8F%E5%AD%A6/5468346?fr=aladdin)  
 2014-2020 [Chengdu Experimental Foreign Language School (Western Campus)](http://www.cdswxq.com/)  
 2020-2024 [Southwest University](http://www.swu.edu.cn/) & [University of Auckland](http://www.uoa.edu.au/) Joint training BSc programs  
-2024-? [Simon Fraser University(Pending)](https://www.cuhk.edu.hk/)  
+2024-? [Simon Fraser University(Pending)](www.sfu.ca)  
 
 ### About  
 I am Runze Liao, a recent graduate of Southwest University Joint Bachlor program(with University of Auckland), where I majored in Computer Science.
