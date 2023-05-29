@@ -23,7 +23,7 @@ In my free time, I explore my passion for storytelling. I am particularly motiva
 Runze Liao is currently a Bachelor of College of Computer and Information Science, Southwest University, China and a Bachelor of the University of Auckland. He will receive B.S. from Southwest University and University of Auckland, C.N. & N.Z., His research interests include computer vision, computational photography，  graphics, and deep learning. 
 [CV](https://github.com/tony8888lrz/tony8888lrz.github.io/blob/main/CV_Runze_mitcas.pdf)
 
-### Projecet
+### Projects
 Modeling Deep Learning Based Privacy Attacks on Physical Mail's Extension of Text [Text-Neural-STE(Coming soon)](https://github.com/tony8888lrz/Neural-STE_Text/)   
 
 Swu-book-management-system [Data-Structure Curriculum Final Project(code)](https://github.com/tony8888lrz/swu-book-management-system)   
