@@ -9,19 +9,26 @@ He wishes u enjoy the music.
 2008-2014 [ZongBei Primary School](https://baike.baidu.com/item/%E6%A3%95%E5%8C%97%E5%B0%8F%E5%AD%A6/5468346?fr=aladdin)  
 2014-2020 [Chengdu Experimental Foreign Language School (Western Campus)](http://www.cdswxq.com/)  
 2020-2024 [Southwest University](http://www.swu.edu.cn/) & [University of Auckland](http://www.uoa.edu.au/) Joint training BSc programs  
-2024-? [?](https://www.cuhk.edu.hk/)  
+2024-? [Simon Fraser University(Pending)](https://www.cuhk.edu.hk/)  
 
 ### About  
+I am Runze Liao, a recent graduate of Southwest University Joint Bachlor program(with University of Auckland), where I majored in Computer Science.
+
+Finding solutions to challenging problems brings me immense joy. I have a deep curiosity and strive to gain a diverse range of perspectives. I am particularly drawn to the philosophies of Ji-Chiang Li, which shape my approach to personal and professional growth.
+
+Professionally, I have a strong passion for software development and a keen interest in working with graphics and vision systems. I appreciate the intricacies of typography, color, and motion in design. Although my childhood dreams revolved around becoming an artist or designer, my introduction to programming at SWU changed my path. While I now pursue a career as an engineer, I still hold a deep admiration for the creative community. I value collaborative environments where I can work alongside artists and designers, building tools to support their craft.
+
+In my free time, I explore my passion for storytelling. I am particularly motivated to find ways to explain complex technical concepts in accessible and engaging ways. This interest sparked during my sophomore year when I served as a teaching assistant for an introductory Functional Programming class. Many students came from diverse academic backgrounds, and I dedicated time to finding effective ways to explain intricate topics in a manner that resonated with them. I firmly believe that the process of acquiring new knowledge is exhilarating and rewarding, and I am committed to helping others experience that same joy. Additionally, overcoming intellectual challenges fosters confidence and resilience, shaping us into stronger individuals.
 Runze Liao is currently a Bachelor of College of Computer and Information Science, Southwest University, China and a Bachelor of the University of Auckland. He will receive B.S. from Southwest University and University of Auckland, C.N. & N.Z., His research interests include computer vision, computational photography，  graphics, and deep learning. 
 [CV](https://github.com/tony8888lrz/tony8888lrz.github.io/blob/main/CV_Runze_mitcas.pdf)
 
 ### Projecet
-Modeling Deep Learning Based Privacy Attacks on Physical Mail's Extension of Text [Text-Neural-STE(code)](https://github.com/tony8888lrz/Neural-STE_Text/)   
+Modeling Deep Learning Based Privacy Attacks on Physical Mail's Extension of Text [Text-Neural-STE(Coming soon)](https://github.com/tony8888lrz/Neural-STE_Text/)   
 
 Swu-book-management-system [Data-Structure Curriculum Final Project(code)](https://github.com/tony8888lrz/swu-book-management-system)   
 
 ### News  
-He won a National Encouragement Scholarship 2022(top 2%)  
+He won a National Encouragement Scholarship in 2022.
 
 
 
