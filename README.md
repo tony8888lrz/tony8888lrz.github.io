@@ -12,7 +12,7 @@ He wishes u enjoy the music.
 2024-? [Simon Fraser University(Pending)](www.sfu.ca)  
 
 ### About  
-I am Runze Liao, a recent graduate of Southwest University Joint Bachlor program(with University of Auckland), where I majored in Computer Science.
+I am Runze Liao, a recent undergraduate of Southwest University Joint Bachlor program(with University of Auckland), where I majored in Computer Science.
 
 Finding solutions to challenging problems brings me immense joy. I have a deep curiosity and strive to gain a diverse range of perspectives. I am particularly drawn to the philosophies of Ji-Chiang Li, which shape my approach to personal and professional growth.
 
