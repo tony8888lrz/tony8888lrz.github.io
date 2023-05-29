@@ -84,5 +84,5 @@ His favorite band is Radiohead & Pink Floyd.
 [ins](https://www.instagram.com/ttoooonnny/)   
 [linkedin](https://www.linkedin.cn/incareer/in/ACoAADsXTKgBP0cHKc9Dhx7yOvdeLLMCxyaK9Os)  
 qq:2043491428  
-wechat:liaorunze1314  
+wechat:runze324  
 phone:19934325211 
