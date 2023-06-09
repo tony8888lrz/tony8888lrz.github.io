@@ -79,6 +79,9 @@ For more information about this boy, you can find him in [scholar](http://schola
 His favorite director is Stanley Kubrick.  
 His favorite band is Radiohead & Pink Floyd.  
 
+IELTS Band 7.5
+
+
 ### Contact
 
 [ins](https://www.instagram.com/ttoooonnny/)   
