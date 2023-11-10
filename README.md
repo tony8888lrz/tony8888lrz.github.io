@@ -13,9 +13,9 @@ Runze Liao is currently a Bachelor of College of Computer and Information Scienc
 [CV](https://github.com/tony8888lrz/tony8888lrz.github.io/blob/main/CV_Runze_mitcas.pdf)
 
 ### Projects
-Modeling Deep Learning Based Privacy Attacks on Physical Mail's Extension of Text [Text-Neural-STE(Coming soon)](https://github.com/tony8888lrz/Neural-STE_Text/)   
+Modeling Deep Learning Based Privacy Attacks on Physical Mail's Extension of Text [Text-Neural-STE (Coming soon)](https://github.com/tony8888lrz/Neural-STE_Text/)   
 
-Swu-book-management-system [Data-Structure Curriculum Final Project(code)](https://github.com/tony8888lrz/swu-book-management-system)   
+Swu-book-management-system [Data-Structure Curriculum Final Project (code)](https://github.com/tony8888lrz/swu-book-management-system)   
 
 ### News  
 
