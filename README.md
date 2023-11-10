@@ -1,6 +1,5 @@
 ## Runze Liao  
 
-This is [Tony's](https://github.com/tony8888lrz) webpage.
 ![46D54DA61313AAE2C1DAF6E141FD313E](Photo.jpg){:width = "200px" height="200px"}
   
 ### Education
@@ -59,8 +58,6 @@ fn research_no_failure()->Result < Paper, Error > {
     Ok(paper)
 }
 ```
-
-For more information about this boy, you can find him in [scholar](http://scholar.com).
 
 ### Workspace
 
