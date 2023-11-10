@@ -65,7 +65,5 @@ fn research_no_failure()->Result < Paper, Error > {
 - He is the initiator of this project :  [swu-cst-cracker](https://github.com/tony8888lrz/swu-cst-cracker) star[6]
 
 ### Contact
-
-[ins](https://www.instagram.com/ttoooonnny/)   
 [linkedin](https://www.linkedin.cn/incareer/in/ACoAADsXTKgBP0cHKc9Dhx7yOvdeLLMCxyaK9Os)  
 wechat:runze324  
