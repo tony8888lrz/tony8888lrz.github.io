@@ -3,12 +3,9 @@
 This is [Tony's](https://github.com/tony8888lrz) webpage.
 ![46D54DA61313AAE2C1DAF6E141FD313E](Photo.jpg){:width = "200px" height="200px"}
   
-He wishes u enjoy the music.  
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=120 src="//music.163.com/outchain/player?type=2&id=4237923&auto=1&height=66"></iframe>
 ### Education
 2014-2020 [Chengdu Experimental Foreign Language School (Western Campus)](http://www.cdswxq.com/)  
 2020-2024 [Southwest University](http://www.swu.edu.cn/) & [University of Auckland](http://www.uoa.edu.au/) Joint Bachlor programs  
-2024-? [Simon Fraser University(Pending)](www.sfu.ca)  
 
 ### About  
 This is Runze Liao, I am currently a forth-year bachelor’s student at Southwest University Joint Bachlor program (with University of Auckland), majoring in Computer Science.
