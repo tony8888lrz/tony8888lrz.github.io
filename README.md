@@ -3,16 +3,17 @@
 ![46D54DA61313AAE2C1DAF6E141FD313E](Photo.jpg){:width = "200px" height="200px"}
   
 ### Education
-2014-2020 [Chengdu Experimental Foreign Language School (Western Campus)](http://www.cdswxq.com/)  
+2014-2020 [Chengdu Experimental Foreign Language School (West Campus)](http://www.cdswxq.com/)  
 2020-2024 [Southwest University](http://www.swu.edu.cn/) & [University of Auckland](http://www.uoa.edu.au/) Joint Bachlor programs  
+2024- He is now applying to his graduate degree.
 
 ### About  
-This is Runze Liao, I am currently a forth-year bachelor’s student at Southwest University Joint Bachlor program (with University of Auckland), majoring in Computer Science.
+This is Runze Liao, he is currently a forth-year bachelor’s student at Southwest University Joint Bachlor program (with University of Auckland), majoring in Computer Science.
 
-Runze Liao is currently a Bachelor of College of Computer and Information Science, Southwest University, China and a Bachelor of the University of Auckland. He will receive B.S. from Southwest University and University of Auckland, C.N. & N.Z., His research interests include computer vision, graphics, and visual privacy attack. 
+Runze Liao is currently a Bachelor of College of Computer and Information Science, Southwest University, China and a Bachelor of the University of Auckland. He will receive B.S. from Southwest University and University of Auckland, C.N. & N.Z., His research interests include computer vision, graphics, and visual privacy attack.
 [CV](https://github.com/tony8888lrz/tony8888lrz.github.io/blob/main/CV_Runze_mitcas.pdf)  
 
-Working on Visual Privacy Attack, supervised by [Bingyao Huang](bingyaohuang.github.io)  
+He serves as undergraduate research assistance since May 2022, working on the area of Visual Privacy Attack, supervised by [Bingyao Huang](bingyaohuang.github.io)  
 
 ### Projects
 Modeling Deep Learning Based Privacy Attacks on Physical Mail's Extension of Text [Text-Neural-STE (Coming soon)](https://github.com/tony8888lrz/Neural-STE_Text/)   
