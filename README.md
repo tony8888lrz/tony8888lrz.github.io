@@ -23,7 +23,7 @@ Swu-book-management-system [Data-Structure Curriculum Final Project (code)](http
 ### News  
 
 He awarded National Encouragement Scholarship in 2023.  
-He awarded National Encouragement Scholarship in 2023.
+He awarded National Encouragement Scholarship in 2022.
 
 
 
@@ -64,10 +64,10 @@ fn research_no_failure()->Result < Paper, Error > {
 
 ### Workspace
 
-- He has done some work in his Undergraduate career :  [data structure](https://github.com/tony8888lrz/data-structure) & [c++](https://github.com/tony8888lrz/SWU-c-plus-plus) & [swu book management system](https://github.com/tony8888lrz/swu-book-management-system)   
-- He is the initiator of this project :  [swu-cst-cracker](https://github.com/tony8888lrz/swu-cst-cracker) star[6]
+- He has done some work in his Undergraduate career :  [Data Structure](https://github.com/tony8888lrz/data-structure), [C++](https://github.com/tony8888lrz/SWU-c-plus-plus) and [Southwest University Book Management System](https://github.com/tony8888lrz/swu-book-management-system)   
+- He is the initiator of swu-cst-cracker :  [swu-cst-cracker](https://github.com/tony8888lrz/swu-cst-cracker) 
 
 ### Contact  
 
-[linkedin](https://www.linkedin.cn/incareer/in/ACoAADsXTKgBP0cHKc9Dhx7yOvdeLLMCxyaK9Os)  
-wechat:runze324  
+[Linkedin](https://www.linkedin.cn/incareer/in/ACoAADsXTKgBP0cHKc9Dhx7yOvdeLLMCxyaK9Os)  
+Wechat: runze324  
