@@ -13,7 +13,7 @@ This is Runze Liao, he is currently a forth-year bachelor’s student at Southwe
 Runze Liao is currently a Bachelor of College of Computer and Information Science, Southwest University, China and a Bachelor of the University of Auckland. He will receive B.S. from Southwest University and University of Auckland, C.N. & N.Z., His research interests include computer vision, graphics, and visual privacy attack.
 [CV](https://github.com/tony8888lrz/tony8888lrz.github.io/blob/main/CV_Runze_mitcas.pdf)  
 
-He serves as undergraduate research assistance since May 2022, working on the area of Visual Privacy Attack, supervised by [Bingyao Huang](bingyaohuang.github.io)  
+He serves as undergraduate research assistant since May 2022, working on the area of Visual Privacy Attack, supervised by [Bingyao Huang](bingyaohuang.github.io)  
 
 ### Projects
 Modeling Deep Learning Based Privacy Attacks on Physical Mail's Extension of Text [Text-Neural-STE (Coming soon)](https://github.com/tony8888lrz/Neural-STE_Text/)   
