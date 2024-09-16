@@ -5,12 +5,12 @@
 ### Education
 2014-2020 [Chengdu Experimental Foreign Language School (West Campus)](http://www.cdswxq.com/)  
 2020-2024 [Southwest University](http://www.swu.edu.cn/) & [University of Auckland](http://www.uoa.edu.au/) Joint Bachlor programs  
-2024- He is now applying to his graduate degree.
+2024-2026 [University of California, Riverside](https://www1.cs.ucr.edu/)
 
 ### About  
-This is Runze Liao, he is currently a forth-year bachelor’s student at Southwest University Joint Bachlor program (with University of Auckland), majoring in Computer Science.
+This is Runze Liao, he is currently a first-year master’s student at University of California, Riverside, majoring in Computer Science.
 
-Runze Liao is currently a Bachelor of College of Computer and Information Science, Southwest University, China and a Bachelor of the University of Auckland. He will receive B.S. from Southwest University and University of Auckland, C.N. & N.Z., His research interests include computer vision, graphics, and visual privacy attack.
+Runze Liao is currently a Bachelor of College of Computer and Information Science, Southwest University, China and a Bachelor of the University of Auckland. He received B.S. from Southwest University and University of Auckland, C.N. & N.Z., His research interests include computer vision, graphics, and visual privacy attack.
 [CV](https://github.com/tony8888lrz/tony8888lrz.github.io/blob/main/CV_Runze_mitcas.pdf)  
 
 He serves as undergraduate research assistant since May 2022, working on the area of Visual Privacy Attack, supervised by [Bingyao Huang](bingyaohuang.github.io)  
@@ -22,6 +22,7 @@ Swu-book-management-system [Data-Structure Curriculum Final Project (code)](http
 
 ### News  
 
+He joined University of California, Riverside, as a master student in computer science.
 He awarded National Encouragement Scholarship in 2023.  
 He awarded National Encouragement Scholarship in 2022.
 
