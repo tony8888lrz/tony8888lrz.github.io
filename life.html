@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Life Visualization - Time lived vs time remaining">
+    <meta name="author" content="Runze Liao">
+    
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/css.css" rel="stylesheet">
+    <link href="css/solid.css" rel="stylesheet">
+    <link href="css/brands.css" rel="stylesheet">
+    <link href="css/academicons.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <title>Life - Runze Liao</title>
+    
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .life-container {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+        }
+        
+        .lived-section {
+            background-color: white;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+            font-weight: bold;
+            font-size: 24px;
+            text-align: center;
+        }
+        
+        .remaining-section {
+            background-color: black;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 24px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="life-container">
+        <div class="lived-section" id="livedSection">
+            <div id="livedText"></div>
+        </div>
+        <div class="remaining-section" id="remainingSection">
+            <div id="remainingText"></div>
+        </div>
+    </div>
+
+    <script>
+        function updateLifeVisualization() {
+            // 出生日期：2002年3月24日
+            const birthDate = new Date(2002, 2, 24); // 月份从0开始，所以3月是2
+            const now = new Date();
+            const lifeExpectancy = 80;
+            
+            // 计算已活时间（精确到毫秒）
+            const livedMilliseconds = now - birthDate;
+            const livedYears = livedMilliseconds / (1000 * 60 * 60 * 24 * 365.25);
+            const livedDays = Math.floor(livedMilliseconds / (1000 * 60 * 60 * 24));
+            
+            // 计算剩余时间
+            const remainingYears = lifeExpectancy - livedYears;
+            const remainingDays = Math.floor(remainingYears * 365.25);
+            
+            // 计算百分比
+            const livedPercentage = (livedYears / lifeExpectancy) * 100;
+            const remainingPercentage = (remainingYears / lifeExpectancy) * 100;
+            
+            // 格式化当前时间
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            const timeString = `${hours}:${minutes}:${seconds}`;
+            
+            // Calculate remaining time in the current day
+            const remainingHours = (23 - now.getHours()).toString().padStart(2, '0');
+            const remainingMinutes = (59 - now.getMinutes()).toString().padStart(2, '0');
+            const remainingSeconds = (59 - now.getSeconds()).toString().padStart(2, '0');
+            const remainingTimeString = `${remainingHours}:${remainingMinutes}:${remainingSeconds}`;
+            
+            // 更新显示区域大小
+            document.getElementById('livedSection').style.width = livedPercentage + '%';
+            document.getElementById('remainingSection').style.width = remainingPercentage + '%';
+            
+            // 更新文字内容
+            document.getElementById('livedText').innerHTML = `${Math.floor(livedYears)} years<br>${livedDays} days ${timeString}`;
+            document.getElementById('remainingText').innerHTML = `${Math.floor(remainingYears)} years<br>${remainingDays} days ${remainingTimeString}`;
+        }
+        
+        // 每秒更新一次
+        setInterval(updateLifeVisualization, 1000);
+        
+        // 初始更新
+        updateLifeVisualization();
+    </script>
+
+    <script src="js/jquery-3.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
