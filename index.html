@@ -1,280 +1,356 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Runze Liao — Infrastructure Engineer focused on database PaaS. M.S. in Computer Engineering at UC Riverside, joining PDD / Temu in 2026.">
+  <meta name="author" content="Runze Liao">
+  <meta name="keywords" content="Runze Liao, database, distributed systems, PaaS, infrastructure, PDD, Temu, UC Riverside, UCR">
+  <title>Runze Liao</title>
+  <style>
+    :root {
+      --accent: #2563eb;
+      --accent-soft: #eff6ff;
+      --text: #1a1a1a;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --code-bg: #f5f5f7;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--text);
+      background: #fff;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 64px 24px 96px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+    a:hover { text-decoration: underline; }
+    p { margin: 0 0 12px; }
 
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="Runze Liao is a senior undergraduate student majoring in computer science at Southwest University (SWU). Runze he enjoys building and learning systems! His research interest lies in Computer Vision and Graphics including physics-based vision, computational photograghy and privacy attack.">
-<meta name="author" content="Runze Liao">
-<meta name="keywords" content="Runze Liao, UCR, programming language, vision, system, system, algorithm, OI, computer science, 
-ACM-ICPC, programming contest, incremental view maintenance, IVM">
+    /* hero */
+    .hero {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      margin-bottom: 36px;
+    }
+    .hero img {
+      width: 112px;
+      height: 112px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .name {
+      font-family: "Times New Roman", "EB Garamond", Georgia, serif;
+      font-size: 32px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin: 0 0 4px;
+      color: var(--text);
+    }
+    .tagline {
+      color: var(--muted);
+      font-size: 15px;
+      margin: 0 0 12px;
+    }
+    .links {
+      font-size: 14px;
+    }
+    .links a {
+      margin-right: 14px;
+    }
 
-<script src="js/9JZkBilUSmGpH8F5SvwGOfpXbTA.js"></script>
+    /* nav */
+    nav.top {
+      font-size: 14px;
+      margin-bottom: 48px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    nav.top a {
+      color: var(--text);
+      margin-right: 22px;
+    }
+    nav.top a:hover { color: var(--accent); text-decoration: none; }
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151270318-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    /* sections */
+    section { margin-bottom: 44px; }
+    h2 {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin: 0 0 18px;
+    }
 
-  gtag('config', 'UA-151270318-1');
-</script>
+    /* item rows (experience, education) */
+    .item {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 16px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .item:last-child { border-bottom: none; }
+    .item .role { font-weight: 600; color: var(--text); }
+    .item .place { font-size: 14px; color: var(--muted); margin-top: 2px; }
+    .item .date {
+      font-size: 14px;
+      color: var(--muted);
+      white-space: nowrap;
+      align-self: start;
+      font-variant-numeric: tabular-nums;
+    }
 
+    /* news */
+    .news { list-style: none; padding: 0; margin: 0; }
+    .news li {
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      gap: 16px;
+      padding: 6px 0;
+      font-size: 15px;
+    }
+    .news .when {
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+    }
 
-<link href="css/bootstrap.css" rel="stylesheet">
+    /* projects */
+    .proj-intro {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+    .project {
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .project:last-child { border-bottom: none; }
+    .ptitle {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      flex-wrap: wrap;
+    }
+    .pstatus {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 2px 8px;
+      border-radius: 10px;
+      white-space: nowrap;
+    }
+    .pdesc {
+      color: var(--text);
+      font-size: 14.5px;
+      margin: 6px 0 10px;
+      line-height: 1.55;
+    }
+    .pstack {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+    .pstack code {
+      background: var(--code-bg);
+      padding: 1px 7px;
+      border-radius: 4px;
+      font-size: 12.5px;
+      color: var(--text);
+      font-family: "SF Mono", "Menlo", "Consolas", monospace;
+      margin-right: 4px;
+    }
 
-<link href="css/css.css" rel="stylesheet">
+    /* publications */
+    .pub {
+      padding: 10px 0;
+      font-size: 14.5px;
+      line-height: 1.6;
+    }
 
-<!-- <link href="Source_files/fontawesome.css" rel="stylesheet">
- --><link href="css/solid.css" rel="stylesheet">
-<link href="css/brands.css" rel="stylesheet">
-
-<link href="css/academicons.css" rel="stylesheet">
-
-<link href="css/style.css" rel="stylesheet">
-<link rel="stylesheet" href="static/font-awesome-4.7.0/css/font-awesome.min.css">
-<title>Runze Liao</title>
+    @media (max-width: 600px) {
+      main { padding: 40px 20px 60px; }
+      .hero {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+      }
+      .hero img { width: 96px; height: 96px; }
+      .name { font-size: 28px; }
+      .item { grid-template-columns: 1fr; }
+      .item .date { margin-top: 4px; }
+      .news li { grid-template-columns: 1fr; gap: 0; }
+      nav.top a { margin-right: 16px; }
+    }
+  </style>
 </head>
-
-
-
 <body>
-<div class="container-fluid">
-<nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+<main>
 
-<div class="container-fluid">
-<a class="navbar-brand" href="#home"><serif>Runze Liao</serif></a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarToggler">
-<ul class="navbar-nav ml-auto">
+  <header class="hero">
+    <img src="static/img/photo-RunzeLiao.jpeg" alt="Runze Liao">
+    <div>
+      <h1 class="name">Runze Liao</h1>
+      <p class="tagline">Infrastructure Engineer &middot; Database PaaS</p>
+      <div class="links">
+        <a href="https://github.com/tony8888lrz">GitHub</a>
+        <a href="https://www.linkedin.com/in/runze-liao-19474a286/">LinkedIn</a>
+        <a href="mailto:rliao015@ucr.edu">Email</a>
+      </div>
+    </div>
+  </header>
 
-<li class="nav-item">
-<a class="nav-item nav-link" href="#home">Home</a>
-</li>
-<li class="nav-item">
-<a class="nav-item nav-link" href="publication.html">Publication</a>
-</li>
-<!--<li class="nav-item">
-<a class="nav-item nav-link" href="project.html">Project</a>
-</li>-->
-<li class="nav-item">
-<a class="nav-item nav-link" href="life.html">Life</a>
-</li>
-<li class="nav-item">
-<a class="nav-item nav-link" href="misc.html">Misc.</a>
-</li> 
+  <nav class="top">
+    <a href="index.html">Home</a>
+    <a href="publication.html">Publications</a>
+    <a href="life.html">Life</a>
+  </nav>
 
-</ul>
-</div>
-</div>
-</nav>
-<div class="sec-wrapper home-wrapper" id="home">
-<div class="container-fluid">
-<div class="row align-items-center">
-<div class="picture">
-<div class="col-sm-auto col-wrapper">
+  <section id="about">
+    <h2>About</h2>
+    <p>I just wrapped up my M.S. in Computer Engineering at <a href="https://www.ucr.edu/">UC Riverside</a>, advised by <a href="https://jiachenli94.github.io/">Prof. Jiacheng Li</a>. In 2026 I am joining the Database PaaS team at <a href="https://www.pinduoduo.com/">PDD / Temu</a>, working on the storage layer that backs one of the world&rsquo;s largest e-commerce platforms.</p>
+    <p>Before UCR I interned at TikTok (Trust &amp; Safety) and iFLYTEK, and earned a B.Eng. from <a href="https://www.swu.edu.cn/">Southwest University</a> under <a href="https://bingyaohuang.github.io/">Prof. Bingyao Huang</a>. I am drawn to distributed storage, query engines, and the engineering trade-offs that show up at e-commerce scale.</p>
+    <p>Outside work: weiqi (5 dan), lifting, film, craft beer.</p>
+  </section>
 
-<!-- <img src="images/McFlurry.png" class="img-responsive" alt="[Pingchuan :)]" onmouseover="this.src='images/McFlurry.png'" onmouseout="this.src='images/Pingchuan_Ma.png'"> -->
-<img src="static/img/photo-RunzeLiao.jpeg">
-</div>
-</div>
-<div class="col-sm col-wrapper">
-<div class="description">
-<h1 class="name">Runze Liao</h1>
-<div>Master student <br> Department of Computer Science and Enginnering<br>
-University of California - Riverside</div>
-<div>Contact: rliao015 AT ucr DOT edu </div>
-<div><a href="static/files/Resume_Resume.pdf">[CV]</a> <a href="https://github.com/tony8888lrz">[Github]</a> <a href="https://www.linkedin.com/in/runze-liao-19474a286/
-">[LinkedIn]</a></div>
-</ul>
-</div>
-</div>
-<div class="col-sm-12 col-lg col-wrapper">
-<div class="interests">
-<div class="section-title">Research Interests</div>
-<ul style="font-size: 12pt">
-<li>Vision for Robotics</li>
-<li>Parallel accelerate</li>
-<li>Physics-based vision</li>
-<li>Computational photography</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sec-wrapper bio-wrapper" id="bio">
-<div class="container-fluid">
+  <section id="news">
+    <h2>News</h2>
+    <ul class="news">
+      <li><span class="when">2026.04</span><span>Joining the Database PaaS team at PDD / Temu later this year.</span></li>
+      <li><span class="when">2026.03</span><span><em>Driving-LRM</em> accepted to ECCV 2026.</span></li>
+      <li><span class="when">2026.02</span><span><em>Text Recovery Attacks and Defenses on Physical Envelopes</em> accepted to ICMR 2026.</span></li>
+      <li><span class="when">2024.11</span><span>Joined <a href="https://www.flysterna.com/">Sterna</a> as a part-time full-stack engineer.</span></li>
+      <li><span class="when">2024.09</span><span>Started M.S. at UC Riverside.</span></li>
+    </ul>
+  </section>
 
-<div class="row">
-<div class="col col-wrapper" style="font-size: 12pt">
-<p>
-I am Runze Liao (廖润泽), a master student in the Department of Computer Science and Engineering at <a href="https://www.ucr.edu/">University of California, Riverside (UCR)</a>, advised by <a href="https://jiachenli94.github.io/">Prof. Jiacheng Li</a>. Currently I am interning @tiktok.</p>
-<p>
-Prior to that, I received a B.Eng. degree in Department of Computer Science and Engineering at <a href="https://www.swu.edu.cn/"> Southwest University</a> by <a href="https://bingyaohuang.github.io"> Prof. Bingyao Huang</a>. I was an intern at <a href="https://www.iflytek.com/"> iFlytek </a>
-as a Software Development Enginner.
-</p>
-<p>
-My research interest is Vision for robotics, Parallel accelerating, Physics-based vision, and Computational photography.
-</p> 
-<!-- <span style="font-weight: bold;">database system</span> -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="item">
+      <div>
+        <div class="role">Incoming Infrastructure Engineer &middot; Database PaaS</div>
+        <div class="place">PDD / Temu</div>
+      </div>
+      <div class="date">2026 &ndash;</div>
+    </div>
+    <div class="item">
+      <div>
+        <div class="role">Software Engineering Intern &middot; Trust &amp; Safety (AI Safety)</div>
+        <div class="place">TikTok / ByteDance</div>
+      </div>
+      <div class="date">2025</div>
+    </div>
+    <div class="item">
+      <div>
+        <div class="role">Full-stack Engineer &middot; Part-time</div>
+        <div class="place">Sterna</div>
+      </div>
+      <div class="date">2024 &ndash;</div>
+    </div>
+    <div class="item">
+      <div>
+        <div class="role">Software Engineering Intern</div>
+        <div class="place">iFLYTEK</div>
+      </div>
+      <div class="date">2023</div>
+    </div>
+  </section>
 
-<!-- <p style="font-weight: bold; color: #A31F34">[News] Join Pinterest Labs as a research intern on summer 2022!</p>
-<p style="font-weight: bold; color: #A31F34">[News] One paper got accepted by SIGMOD 2022!</p>
-<p style="font-weight: bold; color: #A31F34">[News] One paper got accepted by OOPSLA 2021!</p> -->
+  <section id="projects">
+    <h2>Projects &middot; Database PaaS Track</h2>
+    <p class="proj-intro">A project-first roadmap toward the role. Each one rebuilds a real piece of an e-commerce DB stack and pulls in the theory I need along the way.</p>
 
-</div>
-</div>
-</div>
-</div>
+    <div class="project">
+      <div class="ptitle">
+        <span><a href="https://github.com/tony8888lrz/mini-kv">MiniKV</a> &mdash; Distributed KV with Raft</span>
+        <span class="pstatus">Planned &middot; 2026 Q2</span>
+      </div>
+      <div class="pdesc">A multi-Raft, range-partitioned key-value store. The blueprint that sits under TiKV, OceanBase, and PolarDB-X.</div>
+      <div class="pstack">
+        <code>Rust</code><code>gRPC</code><code>RocksDB</code><br>
+        WAL &rarr; single Raft group &rarr; multi-Raft + region split &rarr; YCSB benchmark.
+      </div>
+    </div>
 
+    <div class="project">
+      <div class="ptitle">
+        <span><a href="https://github.com/tony8888lrz/sql-to-plan">SQL&rarr;Plan</a> &mdash; A hand-written cost-based optimizer</span>
+        <span class="pstatus">Planned &middot; 2026 Q3</span>
+      </div>
+      <div class="pdesc">Lexer to AST to logical plan to Volcano cost model to DP join reorder. The layer where cloud DBs actually pull ahead of each other.</div>
+      <div class="pstack">
+        <code>Rust</code><code>Calcite (ref)</code><br>
+        Predicate pushdown, projection pruning, join-order DP, cost-based plan selection.
+      </div>
+    </div>
 
+    <div class="project">
+      <div class="ptitle">
+        <span><a href="https://github.com/tony8888lrz/lakehouse-lite">LakeHouse-Lite</a> &mdash; Mini OLAP on HDFS / Spark</span>
+        <span class="pstatus">In progress</span>
+      </div>
+      <div class="pdesc">Iceberg tables on HDFS, queried through Trino. A toy version of the lakehouse pattern that powers e-commerce data warehouses.</div>
+      <div class="pstack">
+        <code>Spark</code><code>Iceberg</code><code>Trino</code><code>HDFS</code><br>
+        Time travel, manifest pruning, partition vs. sort layout benchmarks.
+      </div>
+    </div>
+  </section>
 
+  <section id="publications">
+    <h2>Publications</h2>
+    <div class="pub">
+      Junge Zhang, Yanqi Jia, <strong>Runze Liao</strong>, Amit Roy-Chowdhury, Jiachen Li.<br>
+      <em>Driving-LRM: 4D Large Reconstruction Model for Driving Scenes.</em><br>
+      Accepted to ECCV 2026.
+    </div>
+    <div class="pub" style="margin-top: 14px;">
+      Yongfei Tao, Yi Zhang, <strong>Runze Liao</strong>, Bingyao Huang.<br>
+      <em>Text Recovery Attacks and Defenses on Physical Envelopes.</em><br>
+      Accepted to ICMR 2026.
+    </div>
+  </section>
 
-<div class="sec-wrapper exp-wrapper" id="edu">
-<div class="container-fluid">
-<div class="row">
-<div class="col col-wrapper">
-<div class="section-title">Education</div>
-</div>
-</div>
+  <section id="education">
+    <h2>Education</h2>
+    <div class="item">
+      <div>
+        <div class="role">M.S., Computer Engineering</div>
+        <div class="place">University of California, Riverside</div>
+      </div>
+      <div class="date">2024 &ndash; 2026</div>
+    </div>
+    <div class="item">
+      <div>
+        <div class="role">B.Eng., Computer Science and Technology</div>
+        <div class="place">Southwest University</div>
+      </div>
+      <div class="date">2020 &ndash; 2024</div>
+    </div>
+  </section>
 
-<div class="row align-items-center section-item">
-<div class="col-sm-9 col-lg-12 col-wrapper">
-<div class="row">
-<div class="col-md-8 col-wrapper">
-<div class="title">
-<a href="https://www.purdue.edu/">University of California, Riverside</a>
-</div>
-<div class="info">
-<div>M.S. student in <a href="https://www.ce.ucr.edu/">Computer Enginnering</a></div>
-<div>GPA: 4.00/4.00</div>
-<div>Supervisor: <a href="https://jiachenli94.github.io/">Prof. Jiacheng Li</a></div> 
-
-<div class="location">Riverside, CA, USA</div>
-</div>
-</div>
-<div class="col-md-4 col-wrapper">
-<time>Sep. 2024 - (Expected) Mar. 2026</time>
-</div>
-</div>
-</div>
-</div>
-
-
-<div class="row align-items-center section-item">
-<div class="col-sm-9 col-lg-12 col-wrapper">
-<div class="row">
-<div class="col-md-8 col-wrapper">
-<div class="title">
-<a href="https://www.swu.edu.cn/">Southwest University</a>
-</div>
-<div class="info">
-<div>B.Eng. in <a href="http://cis.swu.edu.cn/">Computer Science and Technology</a></div>
-<div>GPA: 3.92/5.00, Ranking 8/120 </div>
-<div>Supervisor: <a href="https://bingyaohuang.github.io/">Prof. Bingyao Huang</a></div> 
-<div class="location">Chongqing, China</div>
-</div>
-</div>
-<div class="col-md-4 col-wrapper">
-<time>Sep. 2020 - Jul. 2024</time>
-</div>
-</div>
-</div>
-</div>
-
-
-</div>
-</div>
-
-<div class="sec-wrapper exp-wrapper" id="edu">
-<div class="container-fluid">
-<div class="row">
-<div class="col col-wrapper">
-<div class="section-title">Experience</div>
-</div>
-</div>
-
-<div class="row align-items-center section-item">
-<div class="col-sm-9 col-lg-12 col-wrapper">
-<div class="row">
-<div class="col-md-8 col-wrapper">
-<div class="title">
-<a href="https://www.ifytek.com/">iFLYTEK Co., Ltd</a>
-</div>
-<div class="info">
-<div>Software Development Enginner Intern | Vision Group</div>
-<!-- <div>GPA: 4.0/4.0</div> -->
-<div class="location">Hefei, Anhui, China</div>
-</div>
-</div>
-<div class="col-md-4 col-wrapper">
-<time>May 2023 - Aug. 2023</time>
-</div>
-</div>
-</div>
-</div>
-
-  <div class="row align-items-center section-item">
-<div class="col-sm-9 col-lg-12 col-wrapper">
-<div class="row">
-<div class="col-md-8 col-wrapper">
-<div class="title">
-<a href="https://www.flysterna.com/">Sterna Co., Ltd</a>
-</div>
-<div class="info">
-<div>Fullstack Development Enginner | Part-time</div>
-<!-- <div>GPA: 4.0/4.0</div> -->
-<div class="location">Remote</div>
-</div>
-</div>
-<div class="col-md-4 col-wrapper">
-<time>Nov 2024 - Now</time>
-</div>
-</div>
-</div>
-</div>
-
-
-
-
-
-</div>
-</div>
-
-<div class="sec-wrapper exp-wrapper" id="edu">
-<div class="container-fluid">
-<div class="row">
-<div class="col col-wrapper">
-<div class="section-title">Service</div>
-</div>
-</div>
-
-<div class="row align-items-center section-item">
-<div class="col-sm-9 col-lg-12 col-wrapper">
-<div class="row">
-<div class="col-md-8 col-wrapper">
-<div class="info">
-<!-- <div>Student Volunteer: PLDI 2024</div> -->
-</div>
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-
-<script src="js/jquery-3.js"></script>
-
-<script src="js/popper.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/script.js"></script>
-
-
-</body></html>
+</main>
+</body>
+</html>
