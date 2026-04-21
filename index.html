@@ -380,8 +380,8 @@
   </section>
 
   <section id="projects">
-    <h2>Projects &middot; Database PaaS Track</h2>
-    <p class="proj-intro">A project-first roadmap toward the role. Each one rebuilds a real piece of an e-commerce DB stack and pulls in the theory I need along the way.</p>
+    <h2>Projects &middot; Systems &amp; Infra Track</h2>
+    <p class="proj-intro">A project-first roadmap toward the role. Each one rebuilds a real piece of the database / AI infra stack behind a modern e-commerce platform, and pulls in the theory I need along the way.</p>
 
     <div class="project">
       <div class="ptitle">
@@ -416,6 +416,18 @@
       <div class="pstack">
         <code>Spark</code><code>Iceberg</code><code>Trino</code><code>HDFS</code><br>
         Time travel, manifest pruning, partition vs. sort layout benchmarks.
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="ptitle">
+        <span><a href="https://github.com/tony8888lrz/tiny-infer">tiny-infer</a> &mdash; A minimal LLM inference engine</span>
+        <span class="pstatus">Planned &middot; 2026 Q4</span>
+      </div>
+      <div class="pdesc">KV cache, continuous batching, paged attention &mdash; the trifecta that vLLM, TGI, and SGLang compete on. The serving layer behind every modern e-commerce LLM stack.</div>
+      <div class="pstack">
+        <code>Python</code><code>PyTorch</code><code>CUDA</code><code>Triton</code><br>
+        HF forward pass &rarr; KV cache reuse &rarr; iteration-level continuous batching &rarr; paged attention &rarr; INT8 quantization benchmark.
       </div>
     </div>
   </section>
