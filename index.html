@@ -379,56 +379,8 @@
   </section>
 
   <section id="projects">
-    <h2>Projects &middot; Systems &amp; Infra Track</h2>
-    <p class="proj-intro">A project-first roadmap toward the role. Each one rebuilds a real piece of the AI platform and infrastructure stack behind a modern e-commerce platform, and pulls in the theory I need along the way.</p>
-
-    <div class="project">
-      <div class="ptitle">
-        <span><a href="https://github.com/tony8888lrz/mini-kv">MiniKV</a> &mdash; Distributed KV with Raft</span>
-        <span class="pstatus">Planned &middot; 2026 Q2</span>
-      </div>
-      <div class="pdesc">A multi-Raft, range-partitioned key-value store. The blueprint that sits under TiKV, OceanBase, and PolarDB-X.</div>
-      <div class="pstack">
-        <code>Rust</code><code>gRPC</code><code>RocksDB</code><br>
-        WAL &rarr; single Raft group &rarr; multi-Raft + region split &rarr; YCSB benchmark.
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="ptitle">
-        <span><a href="https://github.com/tony8888lrz/sql-to-plan">SQL&rarr;Plan</a> &mdash; A hand-written cost-based optimizer</span>
-        <span class="pstatus">Planned &middot; 2026 Q3</span>
-      </div>
-      <div class="pdesc">Lexer to AST to logical plan to Volcano cost model to DP join reorder. The layer where cloud DBs actually pull ahead of each other.</div>
-      <div class="pstack">
-        <code>Rust</code><code>Calcite (ref)</code><br>
-        Predicate pushdown, projection pruning, join-order DP, cost-based plan selection.
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="ptitle">
-        <span><a href="https://github.com/tony8888lrz/lakehouse-lite">LakeHouse-Lite</a> &mdash; Mini OLAP on HDFS / Spark</span>
-        <span class="pstatus">In progress</span>
-      </div>
-      <div class="pdesc">Iceberg tables on HDFS, queried through Trino. A toy version of the lakehouse pattern that powers e-commerce data warehouses.</div>
-      <div class="pstack">
-        <code>Spark</code><code>Iceberg</code><code>Trino</code><code>HDFS</code><br>
-        Time travel, manifest pruning, partition vs. sort layout benchmarks.
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="ptitle">
-        <span><a href="https://github.com/tony8888lrz/tiny-infer">tiny-infer</a> &mdash; A minimal LLM inference engine</span>
-        <span class="pstatus">Planned &middot; 2026 Q4</span>
-      </div>
-      <div class="pdesc">KV cache, continuous batching, paged attention &mdash; the trifecta that vLLM, TGI, and SGLang compete on. The serving layer behind every modern e-commerce LLM stack.</div>
-      <div class="pstack">
-        <code>Python</code><code>PyTorch</code><code>CUDA</code><code>Triton</code><br>
-        HF forward pass &rarr; KV cache reuse &rarr; iteration-level continuous batching &rarr; paged attention &rarr; INT8 quantization benchmark.
-      </div>
-    </div>
+    <h2>Projects</h2>
+    <p class="proj-intro">WIP</p>
   </section>
 
   <section id="publications">
